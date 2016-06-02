@@ -1,0 +1,24 @@
+{
+  "name": "ace-builds",
+  "version": "1.2.3",
+  "_release": "1.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.3",
+    "commit": "e94cb3c7ffccfb2e565cc857f07a988c0989e527"
+  },
+  "homepage": "https://github.com/ajaxorg/ace-builds",
+  "authors": [
+    "obalbous <oba@squid>"
+  ],
+  "main": [
+    "src-noconflict/ace.js",
+    "src-noconflict/ext-language_tools.js",
+    "src-noconflict/mode-bouquet.js",
+    "src-noconflict/snippets/text.js"
+  ],
+  "private": true,
+  "dependencies": {
+    "squid_api": "https://github.com/openbouquet/bouquet-javascript-sdk.git",
+  }
+}
